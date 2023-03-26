@@ -24,7 +24,7 @@ class _CommentScreenState extends State<CommentScreen> {
     if (response.statusCode == 200) {
       list.clear();
       for (Map i in data) {
-      CommentModel commentModel =CommentModel(postId: i['postId'], id: i['id'], name: i['name'], email: i['email'], body: i['body']);
+      CommentModel commentModel = CommentModel(postId: i['postId'], id: i['id'], name: i['name'], email: i['email'], body: i['body']);
       list.add(commentModel);
       }
       return list;

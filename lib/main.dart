@@ -6,6 +6,7 @@ import 'package:learnrestapi/Screens/postScreen.dart';
 import 'package:learnrestapi/Screens/todoScreen.dart';
 
 import 'Screens/UserScreenWithOutModel.dart';
+import 'Screens/randomUserScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       // home:PostScreen(),
-      home:UserScreenWithOutModel(),
+      home:RandomUserScreen(),
     );
   }
 }
