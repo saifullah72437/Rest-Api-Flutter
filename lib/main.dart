@@ -4,6 +4,8 @@ import 'package:learnrestapi/Screens/commentScreen.dart';
 import 'package:learnrestapi/Screens/photosScreen.dart';
 import 'package:learnrestapi/Screens/postScreen.dart';
 import 'package:learnrestapi/Screens/todoScreen.dart';
+import 'package:learnrestapi/postApi/loginUser.dart';
+import 'package:learnrestapi/postApi/registerScreen.dart';
 
 import 'Screens/UserScreenWithOutModel.dart';
 import 'Screens/randomUserScreen.dart';
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       // home:PostScreen(),
-      home:RandomUserScreen(),
+      home:LoginUser(),
     );
   }
 }
